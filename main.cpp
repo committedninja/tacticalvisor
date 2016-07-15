@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
   while (windowEvent.type != SDL_QUIT) {
     switch (windowEvent.type) {
     default:
-      std::cerr << "Unhandled event type: " + windowEvent.type << std::endl;
+      std::cerr << "Unhandled event type: "[windowEvent.type] << std::endl;
     }
     std::cout << "hi" << std::endl;
     // display.clear();
